@@ -1,9 +1,9 @@
 <script>
+	import { description } from "../data/scription.js";
+	import { keywords } from "../data/keywords.js";
 	let {
-		title = "Bay Area Super Commuters",
-		description = "Description TK",
-		url = "https://pudding.cool",
-		keywords = "",
+		title = "Blank, To-Scale",
+		url = "https://alariosjx.github.io/to-scale/",
 		preloadFont = []
 	} = $props();
 </script>
@@ -15,10 +15,10 @@
 	<meta name="news_keywords" content={keywords} />
 
 	<meta property="og:title" content={title} />
-	<meta property="og:site_name" content="The Pudding" />
+	<meta property="og:site_name" content="Blank, To-Scale" />
 	<meta property="og:url" content={url} />
 	<meta property="og:description" content={description} />
-	<meta property="og:type" content="article" />
+	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="en_US" />
 
 	<meta property="og:image" content="{url}/assets/social-facebook.jpg" />
