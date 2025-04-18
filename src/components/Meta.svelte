@@ -1,5 +1,5 @@
 <script>
-	import { description } from "../data/scription.js";
+	import { description } from "../data/description.js";
 	import { keywords } from "../data/keywords.js";
 	let {
 		title = "Blank, To-Scale",
