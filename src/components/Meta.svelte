@@ -2,7 +2,7 @@
 	import { description } from "../data/description.js";
 	import { keywords } from "../data/keywords.js";
 	let {
-		title = "Blank, To-Scale",
+		title = "To-Scale",
 		url = "https://alariosjx.github.io/to-scale/",
 		preloadFont = []
 	} = $props();
@@ -11,11 +11,11 @@
 <svelte:head>
 	<title>{title}</title>
 	<meta name="description" content={description} />
-	<meta name="author" content="The Pudding" />
+	<meta name="author" content="Andres Jimenez Larios" />
 	<meta name="news_keywords" content={keywords} />
 
 	<meta property="og:title" content={title} />
-	<meta property="og:site_name" content="Blank, To-Scale" />
+	<meta property="og:site_name" content="To-Scale" />
 	<meta property="og:url" content={url} />
 	<meta property="og:description" content={description} />
 	<meta property="og:type" content="website" />
