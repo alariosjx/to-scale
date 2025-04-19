@@ -1,6 +1,6 @@
 export default [
 	{
-		id: "1fQS3B7TDvH1Kc-TX5kTqhWbM3PRqWcanPqDjobZaF0s",
+		id: "1_dA1uLs9my2_9SNh4kXsHw1WPyaf4Pz6wdb_FtqTnuo",
 		filepath: "src/data/steps.json"
 	}
 ];
