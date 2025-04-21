@@ -12,11 +12,11 @@
 </script>
 
 <Hero
-	hed="The Long Journey Home"
-	dek="The pandemic changed the way we move. For some, that means commuting farther from home than ever before."
-	byline="By Andres Larios and Jessica Blough"
-	src="assets/commute-images/train.jpeg"
-	alt="Illustrated image of a train."
+	hed="To Scale"
+	dek="Putting the world in perspective by breaking down complex topics into pieces that are easy to understand. In other words, putting things <strong> to scale</strong>."
+	byline="By Andres Larios "
+	src=""
+	alt="A flat design of a California Scrub Jay with a camera around its neck, and a logo that says To Scale."
 />
 
 <!-- Hero with video -->
@@ -27,3 +27,8 @@
 	src="assets/demo/test.mp4"
 	alt="Flourescent jellyfish moving around"
 /> -->
+<style>
+	.hero-container {
+		margin-top: 60px; /* Adjust this value to match the height of your header */
+	}
+</style>

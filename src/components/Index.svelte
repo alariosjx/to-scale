@@ -4,9 +4,11 @@
 	import Footer from "$components/Footer.svelte";
 	import Scrolly from "$components/Scrolly.svelte";
 	import Mapbox from "$components/Mapbox.svelte";
+	import Header from "$components/Header.svelte";
 </script>
 
-<title> Bay Area Super Commuters </title>
+<title> To Scale </title>
+<Header></Header>
 <Hero></Hero>
 <!-- <Mapbox></Mapbox> -->
 <Scrolly></Scrolly>

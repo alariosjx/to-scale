@@ -1,4 +1,5 @@
 <script>
+	import Logo from "../icons/Logo.svelte";
 	const { hed, dek, byline, src, alt } = $props();
 </script>
 
@@ -20,6 +21,10 @@
 	.hero {
 		width: 100vw;
 		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #173258;
 		position: relative;
 	}
 
